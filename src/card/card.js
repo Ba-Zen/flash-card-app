@@ -14,7 +14,7 @@ class Card extends React.Component {
   render() {
     console.log(Question_Data);
     return (
-      <div>
+      <div className='card-container'>
         {Question_Data.frontend.questions.map(q => (
           <div key={q.id} className='card'>
             <h2>{q.question}</h2>
