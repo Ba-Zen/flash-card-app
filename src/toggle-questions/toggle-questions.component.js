@@ -23,7 +23,11 @@ class ToggleQuestions extends Component {
       <div>
         <h2>{question}</h2>
         {!isHidden && <p>{answer}</p>}
-        <button onClick={this.handleToggle}>Show Answer</button>
+        {!isHidden ? (
+          <button onClick={this.handleToggle}>Hide Answer</button>
+        ) : (
+          <button onClick={this.handleToggle}>Show Answer</button>
+        )}
       </div>
     );
   }
