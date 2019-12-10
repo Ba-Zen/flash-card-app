@@ -1,0 +1,14 @@
+.categories-container {
+  height: 100%;
+  width: 13rem;
+  box-shadow: 2px 3px 23px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  margin-top: 4rem;
+}
+.categories-container a {
+  padding: 1rem 0 1rem 0;
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
