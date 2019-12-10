@@ -1,7 +1,7 @@
 const Question_Data = {
   frontend: {
     id: 1,
-    questions: [
+    react: [
       {
         id: 1,
         question: 'What is React?',
