@@ -1,5 +1,5 @@
 import React from 'react';
-import './react.css';
+import './card.css';
 
 import ToggleQuestions from '../toggle-questions/toggle-questions.component';
 import Question_Data from '../../assets/data/questions.data';
